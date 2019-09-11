@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Logo de 1`] = `
+<a
+  aria-label="MDN Web Docs"
+  className="logo"
+  href="/de/"
+>
+  <svg>
+    logo.svg
+  </svg>
+</a>
+`;
+
+exports[`Storyshots Logo default 1`] = `
+<a
+  aria-label="MDN Web Docs"
+  className="logo"
+  href="/en-US/"
+>
+  <svg>
+    logo.svg
+  </svg>
+</a>
+`;
