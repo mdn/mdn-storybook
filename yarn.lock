@@ -1076,13 +1076,13 @@
     react-lifecycles-compat "^3.0.4"
     react-select "^3.0.0"
 
-"@storybook/addon-links@^5.2.1":
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-5.2.1.tgz#ec1fc92ed4d840ba758f40167c752f48562a906f"
+"@storybook/addon-links@^5.2.8":
+  version "5.2.8"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-5.2.8.tgz#8d447581dd511387e9a07ce2484422374f00bc84"
   dependencies:
-    "@storybook/addons" "5.2.1"
-    "@storybook/core-events" "5.2.1"
-    "@storybook/router" "5.2.1"
+    "@storybook/addons" "5.2.8"
+    "@storybook/core-events" "5.2.8"
+    "@storybook/router" "5.2.8"
     common-tags "^1.8.0"
     core-js "^3.0.1"
     global "^4.3.2"
@@ -1101,7 +1101,7 @@
     read-pkg-up "^6.0.0"
     regenerator-runtime "^0.12.1"
 
-"@storybook/addons@5.2.1", "@storybook/addons@^5.2.1":
+"@storybook/addons@5.2.1":
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-5.2.1.tgz#6e52aa1fa2737e170fb675eb1fcceebd0a915a0b"
   dependencies:
@@ -1109,6 +1109,18 @@
     "@storybook/channels" "5.2.1"
     "@storybook/client-logger" "5.2.1"
     "@storybook/core-events" "5.2.1"
+    core-js "^3.0.1"
+    global "^4.3.2"
+    util-deprecate "^1.0.2"
+
+"@storybook/addons@5.2.8", "@storybook/addons@^5.2.1":
+  version "5.2.8"
+  resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-5.2.8.tgz#f8bf8bd555b7a69fb1e9a52ab8cdb96384d931ff"
+  dependencies:
+    "@storybook/api" "5.2.8"
+    "@storybook/channels" "5.2.8"
+    "@storybook/client-logger" "5.2.8"
+    "@storybook/core-events" "5.2.8"
     core-js "^3.0.1"
     global "^4.3.2"
     util-deprecate "^1.0.2"
@@ -1135,6 +1147,28 @@
     telejson "^2.2.2"
     util-deprecate "^1.0.2"
 
+"@storybook/api@5.2.8":
+  version "5.2.8"
+  resolved "https://registry.yarnpkg.com/@storybook/api/-/api-5.2.8.tgz#21f03df8041114eb929bd10b570a17f266568b7f"
+  dependencies:
+    "@storybook/channels" "5.2.8"
+    "@storybook/client-logger" "5.2.8"
+    "@storybook/core-events" "5.2.8"
+    "@storybook/router" "5.2.8"
+    "@storybook/theming" "5.2.8"
+    core-js "^3.0.1"
+    fast-deep-equal "^2.0.1"
+    global "^4.3.2"
+    lodash "^4.17.15"
+    memoizerific "^1.11.3"
+    prop-types "^15.6.2"
+    react "^16.8.3"
+    semver "^6.0.0"
+    shallow-equal "^1.1.0"
+    store2 "^2.7.1"
+    telejson "^3.0.2"
+    util-deprecate "^1.0.2"
+
 "@storybook/channel-postmessage@5.2.1":
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/@storybook/channel-postmessage/-/channel-postmessage-5.2.1.tgz#85541f926d61eedbe2a687bb394d37fc06252751"
@@ -1148,6 +1182,12 @@
 "@storybook/channels@5.2.1":
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-5.2.1.tgz#e5e35f6d9fb1b1fba4f18b171f31d5f6540f3bef"
+  dependencies:
+    core-js "^3.0.1"
+
+"@storybook/channels@5.2.8":
+  version "5.2.8"
+  resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-5.2.8.tgz#79a99ad85dcacb688073c22340c5b7d16b801202"
   dependencies:
     core-js "^3.0.1"
 
@@ -1177,6 +1217,12 @@
   dependencies:
     core-js "^3.0.1"
 
+"@storybook/client-logger@5.2.8":
+  version "5.2.8"
+  resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-5.2.8.tgz#5affe2f9dbbee374721fd2e8729116f5ac39c779"
+  dependencies:
+    core-js "^3.0.1"
+
 "@storybook/components@5.2.1":
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/@storybook/components/-/components-5.2.1.tgz#a4519c5d435c2c25c481e2b64a768e1e568a223f"
@@ -1203,6 +1249,12 @@
 "@storybook/core-events@5.2.1":
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-5.2.1.tgz#bc28d704938d26dd544d0362d38ef08e8cfed916"
+  dependencies:
+    core-js "^3.0.1"
+
+"@storybook/core-events@5.2.8":
+  version "5.2.8"
+  resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-5.2.8.tgz#93fc458ea0820ff1409d268b0fe51abba200f5a4"
   dependencies:
     core-js "^3.0.1"
 
@@ -1327,6 +1379,18 @@
     memoizerific "^1.11.3"
     qs "^6.6.0"
 
+"@storybook/router@5.2.8":
+  version "5.2.8"
+  resolved "https://registry.yarnpkg.com/@storybook/router/-/router-5.2.8.tgz#d7de2d401701857c033e28560c30e16512f7f72f"
+  dependencies:
+    "@reach/router" "^1.2.1"
+    "@types/reach__router" "^1.2.3"
+    core-js "^3.0.1"
+    global "^4.3.2"
+    lodash "^4.17.15"
+    memoizerific "^1.11.3"
+    qs "^6.6.0"
+
 "@storybook/theming@5.2.1":
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-5.2.1.tgz#913e383632e4702035a107c2cc5e5cb27231b389"
@@ -1334,6 +1398,23 @@
     "@emotion/core" "^10.0.14"
     "@emotion/styled" "^10.0.14"
     "@storybook/client-logger" "5.2.1"
+    common-tags "^1.8.0"
+    core-js "^3.0.1"
+    deep-object-diff "^1.1.0"
+    emotion-theming "^10.0.14"
+    global "^4.3.2"
+    memoizerific "^1.11.3"
+    polished "^3.3.1"
+    prop-types "^15.7.2"
+    resolve-from "^5.0.0"
+
+"@storybook/theming@5.2.8":
+  version "5.2.8"
+  resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-5.2.8.tgz#a4c9e0e9a5789c1aa71e4fcb7a8ee86efe3dadcf"
+  dependencies:
+    "@emotion/core" "^10.0.14"
+    "@emotion/styled" "^10.0.14"
+    "@storybook/client-logger" "5.2.8"
     common-tags "^1.8.0"
     core-js "^3.0.1"
     deep-object-diff "^1.1.0"
@@ -1509,6 +1590,10 @@
 "@types/history@*":
   version "4.7.3"
   resolved "https://registry.yarnpkg.com/@types/history/-/history-4.7.3.tgz#856c99cdc1551d22c22b18b5402719affec9839a"
+
+"@types/is-function@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@types/is-function/-/is-function-1.0.0.tgz#1b0b819b1636c7baf0d6785d030d12edf70c3e83"
 
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0":
   version "2.0.1"
@@ -4850,7 +4935,7 @@ global-prefix@^3.0.0:
     kind-of "^6.0.2"
     which "^1.3.1"
 
-global@^4.3.2:
+global@^4.3.2, global@^4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/global/-/global-4.4.0.tgz#3e7b105179006a323ed71aafca3e9c57a5cc6406"
   dependencies:
@@ -4966,6 +5051,10 @@ has-flag@^3.0.0:
 has-symbols@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/has-symbols/-/has-symbols-1.0.0.tgz#ba1a8f1af2a0fc39650f5c850367704122063b44"
+
+has-symbols@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/has-symbols/-/has-symbols-1.0.1.tgz#9f5214758a44196c406d9bd76cebf81ec2dd31e8"
 
 has-unicode@^2.0.0:
   version "2.0.1"
@@ -5672,6 +5761,12 @@ is-symbol@^1.0.2:
   resolved "https://registry.yarnpkg.com/is-symbol/-/is-symbol-1.0.2.tgz#a055f6ae57192caee329e7a860118b497a950f38"
   dependencies:
     has-symbols "^1.0.0"
+
+is-symbol@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/is-symbol/-/is-symbol-1.0.3.tgz#38e1014b9e6329be0de9d24a414fd7441ec61937"
+  dependencies:
+    has-symbols "^1.0.1"
 
 is-typedarray@~1.0.0:
   version "1.0.0"
@@ -10066,6 +10161,19 @@ telejson@^2.2.2:
     is-symbol "^1.0.2"
     isobject "^3.0.1"
     lodash "^4.17.11"
+    memoizerific "^1.11.3"
+
+telejson@^3.0.2:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/telejson/-/telejson-3.3.0.tgz#6d814f3c0d254d5c4770085aad063e266b56ad03"
+  dependencies:
+    "@types/is-function" "^1.0.0"
+    global "^4.4.0"
+    is-function "^1.0.1"
+    is-regex "^1.0.4"
+    is-symbol "^1.0.3"
+    isobject "^4.0.0"
+    lodash "^4.17.15"
     memoizerific "^1.11.3"
 
 term-size@^1.2.0:
