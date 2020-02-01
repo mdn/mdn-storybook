@@ -1449,7 +1449,7 @@
     global "^4.3.2"
     util-deprecate "^1.0.2"
 
-"@storybook/addons@5.3.9", "@storybook/addons@^5.2.1":
+"@storybook/addons@5.3.9", "@storybook/addons@^5.3.9":
   version "5.3.9"
   resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-5.3.9.tgz#f2492de356e0cd38e3da357f4dafa058a4756e36"
   dependencies:
