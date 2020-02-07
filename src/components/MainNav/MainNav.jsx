@@ -2,10 +2,10 @@
 import * as React from "react";
 import { memo, useMemo, useState } from "react";
 
-import { gettext } from "../utils/l10n.js";
-import type { DocumentData } from "../types/document-data.js";
+import { gettext } from "../../utils/l10n.js";
+import type { DocumentData } from "../../types/document-data.js";
 
-import "../style/components/_main-nav.scss";
+import "../../style/components/_main-nav.scss";
 
 type Props = {
   document?: ?DocumentData,

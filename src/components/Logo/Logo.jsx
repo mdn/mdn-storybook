@@ -2,10 +2,10 @@ import React from "react";
 
 import PropTypes from "prop-types";
 
-import { gettext } from "../utils/l10n.js";
+import { gettext } from "../../utils/l10n.js";
 
-import { ReactComponent as LogoSVG } from "../media/svg/logo.svg";
-import "../style/components/logo.scss";
+import { ReactComponent as LogoSVG } from "../../media/svg/logo.svg";
+import "../../style/components/logo.scss";
 
 export default function Logo({ locale }) {
   return (
